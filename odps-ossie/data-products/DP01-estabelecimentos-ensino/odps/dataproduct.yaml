@@ -18,3 +18,14 @@ product:
       status: draft
       productVersion: "0.1.0"
       type: derived data
+      standards:
+        - ODPS 4.2
+        - Apache Ossie 0.3.0.dev0
+      tags:
+        - educacao
+        - inep
+        - censo-escolar
+        - estabelecimentos-ensino
+      versionNotes: >-
+        Versão inicial do produto de dados para o POC de interoperabilidade
+        entre ODPS e Apache Ossie, utilizando OCI Lakehouse e Apache Iceberg.
