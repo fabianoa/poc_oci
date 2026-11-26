@@ -1,0 +1,20 @@
+schema: https://opendataproducts.org/v4.2/schema/odps.yaml
+version: "4.2"
+
+product:
+  details:
+    en:
+      name: "DP01 - Estabelecimentos de Ensino"
+      productID: "DP01-ESTABELECIMENTOS-ENSINO"
+      valueProposition: >-
+        Disponibilizar dados padronizados sobre identificação, localização,
+        gestão, funcionamento e características de infraestrutura dos
+        estabelecimentos de ensino, apoiando análises sobre a educação básica.
+      description: >-
+        Produto de dados derivado dos Microdados do Censo Escolar 2024 do INEP.
+        Publica 215.545 registros e 85 atributos na camada Prata do Lakehouse
+        OCI, com granularidade de um registro por estabelecimento e ano do censo.
+      visibility: private
+      status: draft
+      productVersion: "0.1.0"
+      type: derived data
